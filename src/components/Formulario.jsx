@@ -36,7 +36,7 @@ const Formulario = () => {
                         onChange={obtenerDatos}
                     />
                 </div>
-                <div className='col-md-4'>
+                <div className='col-md-4 mt-3'>
                     <select className='form-control' name='categoria' 
                         onChange={obtenerDatos}
                     >
@@ -50,7 +50,7 @@ const Formulario = () => {
                         ))}
                     </select>
                 </div>
-                <div className='col-md-4'>
+                <div className='col-md-4 mt-3'>
                     <input type='submit' className='btn btn-block btn-primary' value='Buscar Bebidas' />
                 </div>
             </div>
