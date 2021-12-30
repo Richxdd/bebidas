@@ -31,7 +31,7 @@ const Formulario = () => {
                 <legend>Busca bebidas por categoria o Ingrediente</legend>
             </fieldset>
             <div className='row mt-4'>
-                <div className='col-md-4'>
+                <div className='col-md-4 mt-3 '>
                     <input name='nombre' className='form-control' type='text' placeholder='Buscar por Ingrediente'
                         onChange={obtenerDatos}
                     />
